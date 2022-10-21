@@ -19,6 +19,12 @@
   name = "Categories"
   pageRef = "categories"
   weight = 20
+  
+[[main]]
+  pre = "github"
+  url = "https://github.com/nijawi"
+  weight = 30
+
 
 #[[main]]
 #  name = "Tags"
@@ -40,3 +46,7 @@
 #   name = "Categories"
 #   pageRef = "categories"
 #   weight = 20
+
+# [[footer]]
+#  name = "Privacy"
+#  url = "https://external-link"

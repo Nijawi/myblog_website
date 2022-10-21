@@ -1,0 +1,7 @@
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.87.0 "
+    max = "0.104.3"
+    baseURL = "https://nijawi.netlify.app/"
+    languageCode = "en"

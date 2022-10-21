@@ -1,4 +1,4 @@
-<div style="padding-left:0;padding-right:0;position: sticky;top: -20px;z-index: 1;"
+<div style="padding-left:0;padding-right:0;top: -25px;z-index: 1;"
     class="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     {{ if .Site.Params.Logo -}}
     {{ $logo := resources.Get .Site.Params.Logo }}
@@ -14,7 +14,7 @@
     </div>
     {{ end }}
     {{- end }}
-    <div style="padding: 0 14px 2px 16px;background-color: lightblue;" class="flex flex-1 items-center justify-between">
+    <div style="padding: 0 14px 2px 16px;background-color: #72b759;" class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
             <a href="{{ "" | relLangURL }}" class="text-base font-medium text-gray-500 hover:text-gray-900">{{ .Site.Title | markdownify

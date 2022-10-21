@@ -3069,6 +3069,10 @@ body:has(#menu-controller:checked) {
     min-height: 180px;
     height: auto;
   }
+  
+    .py-6{
+    position: sticky;
+  }
 
   .article {
     flex-wrap: nowrap;
