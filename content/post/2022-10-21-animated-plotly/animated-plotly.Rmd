@@ -26,8 +26,8 @@ Press play to animate the timeseries, or use the slider to control it yourself
 ```{r plotly, message=FALSE, warning=FALSE}
 p <- ggplot(gapminder, aes(gdpPercap, lifeExp, color = continent)) +
           geom_point(aes(size = pop, frame = year, ids = country)) +
-            scale_x_log10()+
-            facet_wrap(~continent)
+            scale_x_log10() #+
+           # facet_wrap(~continent)
         
         fig <- ggplotly(p)
         fig <- fig %>% 
