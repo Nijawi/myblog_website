@@ -5,3 +5,8 @@
     max = "0.104.3"
     baseURL = "https://nijawi.netlify.app/"
     languageCode = "en"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
