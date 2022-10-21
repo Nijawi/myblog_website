@@ -1,15 +1,14 @@
 ---
-title: Animated Plotly Test
-author: Nick Wiggins
-date: '2022-10-21'
+title: "Animated Plotly Test"
+author: "Nick Wiggins"
+date: "2022-10-21"
 slug: []
-categories:
-  - R
+categories: R
 tags:
-  - gapminder
-  - ggplot2
-  - plotly
-description: 'Testing out using plotly to display animated and interactive graphs.'
+- gapminder
+- ggplot2
+- plotly
+description: Testing out using plotly to display animated and interactive graphs.
 ---
 
 ```{r setup, include=FALSE}
